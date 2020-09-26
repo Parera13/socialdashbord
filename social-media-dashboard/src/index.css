@@ -1,0 +1,60 @@
+*{
+  font-family: 'Inter', sans-serif;
+  
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(230, 17%, 14%);
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  transition: 0.5s ease;
+}
+
+body.dark-mode{
+  background-color: rgb(238, 237, 237);
+  transition: 0.5s ease;
+}
+body.dark-mode #tot{
+  color: black;
+  transition: 0.5s ease;
+}
+
+body.dark-mode #number{
+  color: hsl(230, 17%, 14%);
+  transition: 0.5s ease;
+}
+body.dark-mode h1{
+  color: hsl(230, 17%, 14%);
+  transition: 0.5s ease;
+}
+body.dark-mode h5{
+  color: hsl(230, 17%, 14%);
+  transition: 0.5s ease;
+}
+body.dark-mode h2{
+  color: hsl(230, 17%, 14%);
+  transition: 0.5s ease;
+}
+body.dark-mode #num{
+  color: hsl(230, 17%, 14%);
+  transition: 0.5s ease;
+}
+body.dark-mode .bigBox{
+  background-color: white;
+  transition: 0.5s ease;
+}
+body.dark-mode .smallBox{
+  background-color: white;
+  transition: 0.5s ease;
+}
+body.dark-mode .bigBox#instagram{
+  
+    transition: 0.5s ease;
+}
+

@@ -1,0 +1,72 @@
+.bigBox{
+  height: 200px;
+  width: 250px;
+  background-color: hsl(228, 28%, 20%);
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+.bigBox-content{
+  justify-content: space-between;
+  align-items: center
+}
+.bigBox-header{
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.bigBox-header svg,p{
+  margin: 5px;
+  font-size: 14px;
+}
+#fol{
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+#number{
+  margin-top: 5px;
+  font-size: 60px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  transition: 0.5s ease;
+}
+.bottomLine{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottomLine p{
+  margin: 1px;
+  
+}
+
+.bottomLine img{
+  width: 1rem;
+  height: 1rem;
+}
+/*
+#root > div > div.bigBox-content > div:nth-child(3) > div.big-main > p:nth-child(1){
+margin-top: 16px;
+}
+*/
+#facebook{
+  border-top: 2px solid hsl(208, 92%, 53%);
+}
+#twitter{
+  border-top: 2px solid hsl(203, 89%, 53%);
+}
+#instagram{
+  border-top: 2px solid transparent;
+  padding: .5rem;
+  border-radius: 5px;
+  background: 
+      linear-gradient(to right, hsl(228, 28%, 20%), hsl(228, 28%, 20%)), 
+      linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  /*border-image-source: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%)); 
+  border-image-slice: 5;*/
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  transition: 0.5s ease;
+}
+#youtube{
+  border-top: 2px solid hsl(348, 97%, 39%);
+}
